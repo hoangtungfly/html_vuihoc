@@ -2025,6 +2025,7 @@ form.feedback-form .textarea-col {}
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .form-field-container input:focus,
 .form-field-container textarea:focus {
     outline: none;
@@ -2846,10 +2847,21 @@ form.feedback-form .form-actions {
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-header {
+        display: none;
+    }
+
+    .nav.navbar-nav.pull-right {
+        left: 2%;
+    }
+}
+
+@media (max-width: 767px) {
     .navbar>div>div>div {
         padding-left: 0;
     }
+
     .nav.navbar-nav.pull-right {
         float: none !important;
         margin-top: 0;
@@ -3010,12 +3022,12 @@ form.feedback-form .form-actions {
 
     #navbar a {
         color: white !important;
-        font-size: 22px;
+        font-size: 22px !important;
         text-transform: uppercase;
     }
 
     #navbar>ul>li {
-        padding: 10px 15px;
+        padding: 12px 15px 8px;
         border-bottom: 1px white solid;
     }
 
@@ -3076,7 +3088,7 @@ form.feedback-form .form-actions {
 
     #navbar>ul>li>ul>li a {
         font-size: 30px;
-        padding: 24px 30px 20px;
+        padding: 20px 30px 15px;
     }
 
     #navbar>ul>li>ul>li>ul {
