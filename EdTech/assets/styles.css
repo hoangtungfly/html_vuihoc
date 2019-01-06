@@ -1715,15 +1715,33 @@ ul.accomplishBar li span {
 .subjects_sec .subject ul.lesson-list li .star {
     position: absolute;
     right: 15px;
-    top: 6px;
-    background: url(imgs/subject/star.png);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 101%;
+    top: 6px;    
     height: 56px;
     width: 56px;
     padding: 14px 0;
     text-align: center;
+}
+
+.subjects_sec .subject ul.lesson-list li.completed .star {
+    background: url(imgs/subject/star_full.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    right: 12px;
+    height: 63px;
+    width: 63px;
+}
+.subjects_sec .subject ul.lesson-list li.incompleted .star {
+    background: url(imgs/subject/star.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 101%;
+}
+.subjects_sec .subject ul.lesson-list li.intact .star {
+    background: url(imgs/subject/star_outline.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 101%;
 }
 
 .subjects_sec .subject ul.lesson-list li .star span {
