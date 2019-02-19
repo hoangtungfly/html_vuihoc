@@ -36,3 +36,9 @@
 <i class="fas fa-star"></i>   solid
 
 <i class="fas fa-lightbulb"></i>
+
+
+<i class="fas fa-comments"></i>
+<i class="fas fa-newspaper"></i>
+<i class="far fa-newspaper"></i>
+<i class="fas fa-comment"></i>
