@@ -12,6 +12,11 @@ a {
     text-decoration: none !important;
 }
 
+.no-padding-col {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -53,6 +58,7 @@ ul {
     margin: 0 -65px;
     padding: 0;
     height: 78px;
+    text-align: center;
 }
 
 .tab-pane .owl-theme .owl-nav [class*=owl-]:hover {
@@ -78,7 +84,7 @@ ul {
 
 .tab-pane .owl-nav div {
     display: inline-block;
-    width: 50px;
+    /* width: 50px; */
     height: 50px;
 }
 
@@ -2294,6 +2300,12 @@ a.action-btn {
     overflow: hidden;
 }
 
+.note-cover .question-area .bottom-btn {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+}
+
 .note-cover .question-area .left-tray {
     position: absolute;
     left: -36px;
@@ -2816,6 +2828,7 @@ a.action-btn {
     padding-bottom: 12px;
     border: none;
     box-shadow: 0 2px 33px 0 rgba(176, 192, 237, 0.33);
+    height: 409px;
 }
 
 .courses_sec .other-courses .course .thumbnail .cover {
@@ -3153,7 +3166,11 @@ a.action-btn {
 .news_article_sec .content-sheet .right .news-box .tab-content .most-comment {}
 
 /* HOME REVISION */
-.statistics {margin-top: 70px;margin-bottom: 15px;}
+.statistics {
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+
 .statistics .box {
     color: white;
     border-right: 1px white solid;
@@ -3161,11 +3178,13 @@ a.action-btn {
     text-align: center;
     padding-top: 30px;
 }
+
 .statistics .box h1 {
     font-family: Baloo;
     font-size: 72px;
     margin-bottom: 0;
 }
+
 .statistics .box h4 {
     font-family: Quicksand;
     font-size: 28px;
@@ -3258,6 +3277,7 @@ a.action-btn {
     font-weight: 700;
     margin-left: 2px;
     color: black;
+    text-align: center;
 }
 
 .notable_courses {
@@ -3270,6 +3290,10 @@ a.action-btn {
 
 .notable_courses .courses_sec .head_title {
     margin-bottom: 39px;
+}
+
+.notable_courses .courses_sec .head_title h4 {
+    padding-right: 100px;
 }
 
 .notable_courses .courses_sec .other-courses {
@@ -3363,18 +3387,23 @@ a.action-btn {
     overflow: hidden;
     padding-top: 110px;
 }
+
 .parental_testimonial .head_title h4 {
     color: white;
 }
+
 .parental_testimonial .testimonial {}
-.parental_testimonial .testimonial .left > div {
+
+.parental_testimonial .testimonial .left>div {
     position: relative;
     top: -65px;
 }
+
 .parental_testimonial .testimonial .left img {
-    /* position: relative; */
-    /* left: -26px; */
+    position: relative;
+    left: 99px;
     width: auto;
+    top: 182px;
 }
 
 .parental_testimonial .testimonial .right.tab-pane .owlNavBtn,
@@ -3394,6 +3423,7 @@ a.action-btn {
     position: relative;
     left: 10px;
 }
+
 .parental_testimonial .testimonial .right.tab-pane .owl-next {
     position: relative;
     right: 10px;
@@ -3403,12 +3433,13 @@ a.action-btn {
     position: relative;
     left: 10px;
 }
+
 .parental_testimonial .testimonial .right.tab-pane .owl-next {
     position: relative;
     right: 10px;
 }
 
-.parental_testimonial .testimonial .right.tab-pane .owl-theme .owl-dots .owl-dot.active span, 
+.parental_testimonial .testimonial .right.tab-pane .owl-theme .owl-dots .owl-dot.active span,
 .parental_testimonial .testimonial .right.tab-pane .owl-theme .owl-dots .owl-dot:hover span {
     border: 1px white solid;
     background-color: white;
@@ -3422,14 +3453,23 @@ a.action-btn {
     top: 195px;
 }
 
+.parental_testimonial .testimonial .left {}
+
 .parental_testimonial .testimonial .left.tab-pane .owl-nav {
     top: 369px;
 }
 
-.parental_testimonial .testimonial .left {
+.parental_testimonial .testimonial .left.tab-pane .owl-dots {
+    display: none;
 }
 
-.parental_testimonial .testimonial .right {padding-top: 110px;}
+.parental_testimonial .testimonial .left .owl-carousel.owl-drag .owl-item {
+    height: 800px;
+}
+
+.parental_testimonial .testimonial .right {
+    padding-top: 110px;
+}
 
 .parental_testimonial .testimonial .right .testimonial-box {
     padding: 0px 30px;
@@ -3444,11 +3484,17 @@ a.action-btn {
     margin-bottom: 20px;
 }
 
+.parental_testimonial .testimonial .right .testimonial-box .character {
+    position: relative;
+    top: -20px;
+}
+
 .parental_testimonial .testimonial .right .testimonial-box img {
     height: 110px;
     width: 110px;
     border-radius: 100px;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .parental_testimonial .testimonial .right .testimonial-box p.name {
@@ -3468,15 +3514,54 @@ a.action-btn {
     font-weight: normal;
 }
 
+.bubble-dots {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 72%;
+    top: -10px;
+}
+
+.bubble-dots span {
+    display: inline-block;
+    border-radius: 30px;
+    position: relative;
+    border: solid 1px #d1d1d1;
+}
+
+.bubble-dots span.size-1 {
+    width: 6px;
+    height: 6px;
+    background-color: white;
+}
+
+.bubble-dots span.size-2 {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    top: 14px;
+    left: 2px;
+}
+
+.bubble-dots span.size-3 {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    top: 30px;
+    left: 5px;
+}
+
 .news_home {
     padding: 75px 0 100px;
 }
+
 .news_home .left {
     padding-right: 50px;
 }
+
 .news_home .right {}
 
-.news_home .right .headline:first-child{
+.news_home .right .headline:first-child {
     padding-top: 0;
 }
 
@@ -3627,6 +3712,49 @@ a.action-btn {
         width: 198px;
         left: -80px;
         top: 72px;
+    }
+
+    .statistics .box {
+        height: 150px;
+        padding-top: 18px;
+    }
+
+    .statistics .box h1 {
+        font-size: 50px;
+    }
+
+    .statistics .box h4 {
+        font-size: 20px;
+    }
+
+    .parental_testimonial .testimonial .left img {
+        left: 50px;
+    }
+
+    .tab-pane .owl-theme .owl-nav [class*=owl-] {
+        margin: 0;
+    }
+
+    .parental_testimonial {
+        height: auto;
+        padding-bottom: 65px;
+    }
+
+    .parental_testimonial .testimonial .tab-pane {
+        width: 100%;
+    }
+
+    .parental_testimonial .testimonial .left>div {
+        height: 630px !important;
+    }
+
+    .parental_testimonial .testimonial .left img {
+        left: auto;
+        margin: 0 auto;
+    }
+
+    .parental_testimonial .testimonial .right {
+        padding-top: 0;
     }
 }
 
@@ -3843,6 +3971,10 @@ a.action-btn {
 
     .adjust-container-768 {
         width: 100%;
+    }
+
+    .notable_courses .courses_sec .other-courses .course .thumbnail {
+        height: 370px;
     }
 }
 
@@ -4151,7 +4283,7 @@ a.action-btn {
 
     .note-cover .note-spring {
         width: 224px;
-        left: 76px;
+        left: 88px;
     }
 
     .note-cover .question-area .question-heading {}
@@ -4210,6 +4342,27 @@ a.action-btn {
 
     .subjects_sec .subject ul.lesson-list li .title {
         width: 58%;
+    }
+
+    .notable_courses .courses_sec .other-courses .course .thumbnail {
+        height: 370px;
+    }
+
+    .join_vuihoc .four-step .step .content {
+        padding-top: 27px;
+    }
+
+    .join_vuihoc .four-step .step .header h2 {
+        font-size: 30px
+    }
+
+    .join_vuihoc .four-step .step .content span {
+        font-size: 18px;
+    }
+
+    .join_vuihoc .four-step .step .content i {
+        display: block;
+        margin-bottom: 5px;
     }
 }
 
@@ -4462,8 +4615,8 @@ a.action-btn {
     }
 
     .note-cover {
-        width: 320px;
-        margin-left: 90px;
+        width: 89vw;
+        margin-left: 8px;
     }
 
     .note-cover .question-area .right-tray {
@@ -4844,7 +4997,8 @@ a.action-btn {
     }
 
     .note-cover {
-        margin-left: 20px;
+        /* margin-left: 8px; */
+        /* width: 87vw; */
     }
 
     .subjects_sec .subject ul.lesson-list li .star {
