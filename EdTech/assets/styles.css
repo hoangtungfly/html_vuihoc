@@ -2304,6 +2304,9 @@ a.action-btn {
     text-align: center;
     position: relative;
     bottom: -30px;
+    /* height: 100%; */
+    float: left;
+    width: 100%;
 }
 
 .note-cover .question-area .left-tray {
@@ -3655,6 +3658,14 @@ a.action-btn {
         left: 0;
     }
 
+    .note-cover .question-area {
+    padding-bottom: 75px;
+}
+
+    .note-cover .question-area .bottom-btn {
+        bottom: 0;
+    }
+
     .subjects_sec .col-xs-6 {
         width: 100%;
         padding: 0;
@@ -4406,7 +4417,85 @@ a.action-btn {
         font-size: 18px;
     }
 
+    .statistics>div>div>.col-xs-3 {
+        width: 50%;
+    }
 
+    .statistics .box {
+        height: auto;
+        padding-top: 0;
+        border-right: none;
+    }
+
+    .statistics .box h1 {
+        font-size: 44px;
+    }
+
+    .statistics .box h4 {
+        font-size: 18px;
+    }
+
+    .news_home .left,
+    .news_home .right {
+        width: 100%;
+    }
+
+    .news_home .left {
+        padding-right: 15px;
+    }
+
+    .news_home .headline.top-news {
+        border-bottom: 1px #d1d1d1 solid;
+        padding: 0 0 12px;
+    }
+
+    .news_home .right .headline:first-child {
+        padding-top: 22px;
+    }
+
+    .join_vuihoc .four-step .step {
+        width: 50%;
+    }
+
+    .join_vuihoc .four-step .step.two .content {
+        border-right: none;
+    }
+
+    .join_vuihoc .four-step .step.three .header span {
+        display: none;
+    }
+
+    .notable_courses .courses_sec .head_title h4 {
+        font-size: 28px;
+    }
+
+    .notable_courses>div>div>div .col-xs-3 {
+        display: none;
+    }
+
+    .notable_courses .courses_sec {
+        width: 100%;
+    }
+
+    .notable_courses .courses_sec .other-courses .course .thumbnail {
+        height: auto;
+    }
+
+    .parental_testimonial .testimonial .right.tab-pane .owl-next {
+        right: 0;
+    }
+
+    .parental_testimonial .testimonial .right.tab-pane .owl-prev {
+        left: 0px;
+    }
+
+    .news_home .head_title {
+        text-align: center;
+    }
+
+    .news_home .head_title .spliter {
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 568px) {
@@ -4920,7 +5009,7 @@ a.action-btn {
         display: none;
     }
 
-    .news_article_sec .content-sheet .left .related-articles #related-news .news {
+    .news_article_sec .content-sheet .left .related-articles #related-news .col-xs-6 {
         width: 100%;
         margin-bottom: 0;
     }
@@ -5011,6 +5100,25 @@ a.action-btn {
         font-size: 18px;
     }
 
+    .parental_testimonial .testimonial .left img {
+        width: 100%;
+    }
+
+    .parental_testimonial .left.tab-pane .owl-theme .owl-nav [class*=owl-] {
+        float: none;
+    }
+
+    .parental_testimonial .left.tab-pane .owl-theme .owl-nav .owl-prev {
+        margin-right: 140px !important;
+    }
+
+    .parental_testimonial .left.tab-pane .owl-theme .owl-nav .owl-next {
+        margin-left: 140px !important;
+    }
+
+    .parental_testimonial .testimonial .left.tab-pane .owlNavBtn {
+        color: #a5a5a5;
+    }
 }
 
 @media (max-width: 375px) {
@@ -5032,6 +5140,14 @@ a.action-btn {
         font-size: 28px;
         padding: 23px 0px;
         width: 60px;
+    }
+
+    .parental_testimonial .left.tab-pane .owl-theme .owl-nav .owl-prev {
+        margin-right: 120px !important;
+    }
+
+    .parental_testimonial .left.tab-pane .owl-theme .owl-nav .owl-next {
+        margin-left: 120px !important;
     }
 
 }
