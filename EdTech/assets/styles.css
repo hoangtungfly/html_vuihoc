@@ -584,7 +584,8 @@ a.navbar-brand {
 
 /* HOMEPAGE */
 .heading_sec {
-    font-family: 'Baloo';
+    /* font-family: 'Baloo'; */
+    font-family: Quicksand;
 }
 
 .heading_sec .slogan {
@@ -622,19 +623,26 @@ a.navbar-brand {
 .classBlock h4 {
     margin: 0 0 -12px 0;
     font-size: 48px;
+    font-weight: bold;
+}
+
+.classBlock h4 span {
+    display: none;
 }
 
 .classBlock h1 {
     margin-top: 0;
     margin-bottom: 0;
     font-size: 140px;
+    font-weight: bold;
 }
 
 .classBlock .thumbnail .className {
-    padding-top: 35px;
+    padding-top: 25px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     margin: -1px;
+    padding-bottom: 10px;
 }
 
 .grade_1 {
@@ -713,6 +721,7 @@ a.navbar-brand {
 .searchBar {
     font-size: 22px;
     color: white;
+    font-weight: bold;
 }
 
 .searchBar ul {
@@ -728,10 +737,12 @@ a.navbar-brand {
 
 .searchBar button {
     border-radius: 12px;
-    background-color: #ff5620;
+    background-color: #FF6609;
     color: white;
     font-size: 22px;
     padding: 5px 35px;
+    position: relative;
+    top: -2px;
 }
 
 .searchBar button:hover {
@@ -773,7 +784,10 @@ a.navbar-brand {
 .head_title h4 {
     font-size: 36px;
     color: black;
-    font-family: 'Baloo';
+    /* font-family: 'Baloo'; */
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: bold;
 }
 
 .head_title .spliter {
@@ -1072,6 +1086,7 @@ ul.nav.content-tab li.active a {
 
 footer.homeFooter {
     /*padding: 25px 0 75px;*/
+    min-height: 465px;
 }
 
 footer.homeFooter>div>div {
@@ -3172,20 +3187,27 @@ a.action-btn {
 .statistics {
     margin-top: 70px;
     margin-bottom: 15px;
+    background: #216999 url(imgs/bg_kids.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
 }
 
 .statistics .box {
     color: white;
-    border-right: 1px white solid;
+    /* border-right: 1px white solid; */
     height: 202px;
     text-align: center;
     padding-top: 30px;
 }
 
 .statistics .box h1 {
-    font-family: Baloo;
+    /* font-family: Baloo; */
     font-size: 72px;
     margin-bottom: 0;
+    font-family: Quicksand;
+    font-weight: bold;
 }
 
 .statistics .box h4 {
@@ -3229,14 +3251,16 @@ a.action-btn {
 }
 
 .join_vuihoc .four-step .step .header h2 {
-    font-family: Baloo;
+    /* font-family: Baloo; */
     font-size: 36px;
     color: white;
     text-align: center;
-    padding-top: 18px;
+    padding-top: 16px;
     position: relative;
     left: 15px;
     margin-top: 0;
+    font-family: Quicksand;
+    font-weight: bold;
 }
 
 .join_vuihoc .four-step .step .header span {
@@ -3244,6 +3268,10 @@ a.action-btn {
     left: -23px;
     top: -2px;
     font-size: 78px;
+}
+
+.join_vuihoc .four-step .step .header span.glyphicon-triangle-bottom {
+    display: none;
 }
 
 .join_vuihoc .four-step .step.two .header span {
@@ -3470,6 +3498,17 @@ a.action-btn {
     height: 800px;
 }
 
+.parental_testimonial .testimonial .left.alternative {
+    display: none;
+}
+
+.parental_testimonial .testimonial .left .chat-cover {
+    height: 800px;
+    background: url(imgs/home_revision/frame_iphone_x.png);
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
 .parental_testimonial .testimonial .right {
     padding-top: 110px;
 }
@@ -3570,6 +3609,11 @@ a.action-btn {
 
 .news_home .headline {}
 
+.news_home .headline a {
+    display: block;
+    color: black;
+}
+
 .news_home .headline.news {
     border-bottom: 1px #d1d1d1 solid;
     padding: 22px 0px 12px;
@@ -3606,6 +3650,10 @@ a.action-btn {
 .news_home .headline span.date i {}
 
 .news_home .headline.top-news {}
+
+.network {
+    display: none;
+}
 
 
 /* FIXES */
@@ -3659,8 +3707,8 @@ a.action-btn {
     }
 
     .note-cover .question-area {
-    padding-bottom: 75px;
-}
+        padding-bottom: 75px;
+    }
 
     .note-cover .question-area .bottom-btn {
         bottom: 0;
@@ -3748,7 +3796,8 @@ a.action-btn {
 
     .parental_testimonial {
         height: auto;
-        padding-bottom: 65px;
+        /* padding-bottom: 65px; */
+        margin-bottom: -54px;
     }
 
     .parental_testimonial .testimonial .tab-pane {
@@ -3763,6 +3812,20 @@ a.action-btn {
         left: auto;
         margin: 0 auto;
     }
+
+    .parental_testimonial .testimonial .left.primary {
+        display: none;
+    }
+
+    .parental_testimonial .testimonial .left.alternative {
+        display: block;
+        padding: 0;
+    }
+
+    .parental_testimonial .tab-pane .chat-cover .owl-theme .owl-nav {
+    /* width: 70%; */
+    padding: 0 25px;
+}
 
     .parental_testimonial .testimonial .right {
         padding-top: 0;
@@ -3821,8 +3884,8 @@ a.action-btn {
     }
 
     .searchBar ul li:first-child {
-        display: block;
-        margin-bottom: 10px;
+        /* display: block; */
+        margin-bottom: 22px;
     }
 
     .searchBar>div>div {
@@ -4364,7 +4427,7 @@ a.action-btn {
     }
 
     .join_vuihoc .four-step .step .header h2 {
-        font-size: 30px
+        /* font-size: 30px */
     }
 
     .join_vuihoc .four-step .step .content span {
@@ -4372,7 +4435,7 @@ a.action-btn {
     }
 
     .join_vuihoc .four-step .step .content i {
-        display: block;
+        /* display: block; */
         margin-bottom: 5px;
     }
 }
@@ -4454,19 +4517,57 @@ a.action-btn {
     }
 
     .join_vuihoc .four-step .step {
-        width: 50%;
+        width: 100%;
+    }
+
+    .join_vuihoc .four-step .step .header span.glyphicon-triangle-right {
+        display: none;
+    }
+
+    .join_vuihoc .four-step .step .header span.glyphicon-triangle-bottom {
+        right: 25px;
+        left: auto;
+        top: 62px;
+        font-size: 40px;
+        display: inline-block;
+    }
+
+    .join_vuihoc .four-step .step.one .header span.glyphicon-triangle-bottom {
+        color: #ffba00;
+    }
+
+    .join_vuihoc .four-step .step.two .header span.glyphicon-triangle-bottom {
+        color: #ff6609;
+    }
+
+    .join_vuihoc .four-step .step.three .header span.glyphicon-triangle-bottom {
+        color: #1dc2da;
+    }
+
+    .join_vuihoc .four-step .step.four .header span.glyphicon-triangle-bottom {
+        color: #327ad5;
+    }
+
+    .join_vuihoc .four-step .step .header h2 {
+        left: auto;
     }
 
     .join_vuihoc .four-step .step.two .content {
         border-right: none;
     }
 
-    .join_vuihoc .four-step .step.three .header span {
-        display: none;
-    }
-
     .notable_courses .courses_sec .head_title h4 {
         font-size: 28px;
+        padding-right: 0;
+    }
+
+    .notable_courses .courses_sec .head_title {
+        margin-bottom: 90px;
+    }
+
+    .notable_courses .tab-pane .owl-nav {
+        top: -70px;
+        text-align: left;
     }
 
     .notable_courses>div>div>div .col-xs-3 {
@@ -4479,6 +4580,10 @@ a.action-btn {
 
     .notable_courses .courses_sec .other-courses .course .thumbnail {
         height: auto;
+    }
+
+    .parental_testimonial .testimonial .left .chat-cover {
+        background-size: 150%;
     }
 
     .parental_testimonial .testimonial .right.tab-pane .owl-next {
@@ -4495,6 +4600,32 @@ a.action-btn {
 
     .news_home .head_title .spliter {
         margin: 0 auto;
+    }
+
+    .parental_testimonial .testimonial .owl-nav {
+        display: none;
+    }
+
+    .news_home {
+        padding-bottom: 15px;
+    }
+
+    .network {
+        display: block;
+    }
+
+    .navigation,
+    footer .left,
+    footer .right {
+        display: none;
+    }
+
+    footer.homeFooter {
+        min-height: auto;
+    }
+
+    footer.homeFooter>div>div {
+        border: none;
     }
 }
 
@@ -4560,9 +4691,14 @@ a.action-btn {
         font-size: 30px;
     }
 
+    .classBlock h4 span {
+        display: inline;
+    }
+
     .heading_sec h1 {
         font-size: 80px;
         margin-top: -22px;
+        display: none;
     }
 
     .col_5 {
@@ -4572,7 +4708,7 @@ a.action-btn {
 
     .classBlock .thumbnail {
         /* width: 100%; */
-        margin-bottom: 25px;
+        margin-bottom: 15px;
         width: 145px;
     }
 
@@ -4590,6 +4726,7 @@ a.action-btn {
 
     .searchBar ul {
         margin-bottom: 0;
+        padding: 0 25px;
     }
 
     .searchBar ul li span.text {
@@ -4601,13 +4738,13 @@ a.action-btn {
     }
 
     .searchBar button span {
-        margin-right: 0;
-        font-size: 18px;
+        /* margin-right: 50px; */
+        /* font-size: 18px; */
     }
 
     .searchBar .selectBox i {
-        top: 12px;
-        right: 8px;
+        top: 16px;
+        right: 40px;
     }
 
     .lessons .col_5 {
@@ -4643,6 +4780,9 @@ a.action-btn {
 
     .className h4 {
         margin-bottom: 15px;
+        text-align: left;
+        padding-left: 15px;
+        text-transform: uppercase;
     }
 
     .classBlock .thumbnail .className {
@@ -4663,7 +4803,6 @@ a.action-btn {
     }
 
     .searchBar select {
-        margin-bottom: 15px;
         padding: 8px 25px 6px 8px;
         font-size: 18px;
     }
@@ -5101,7 +5240,7 @@ a.action-btn {
     }
 
     .parental_testimonial .testimonial .left img {
-        width: 100%;
+        width: 83%;
     }
 
     .parental_testimonial .left.tab-pane .owl-theme .owl-nav [class*=owl-] {
@@ -5118,6 +5257,82 @@ a.action-btn {
 
     .parental_testimonial .testimonial .left.tab-pane .owlNavBtn {
         color: #a5a5a5;
+    }
+
+    .parental_testimonial .testimonial .right .testimonial-box {
+        padding: 0;
+    }
+
+    .parental_testimonial>.container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .news_home {
+        background-color: #f8f9fd !important;
+    }
+
+    .news_home>.container {
+        padding: 0
+    }
+
+    .notable_courses>.container {
+        padding: 0;
+    }
+
+    .classBlock .col_5,
+    .classBlock .col_5 .thumbnail {
+        width: 100%;
+    }
+
+    .classBlock .thumbnail .className {
+        padding-top: 15px;
+    }
+
+    .classBlock h4 {
+        margin-bottom: 0;
+        padding-left: 25px;
+    }
+
+    .classBlock .thumbnail .caption p, .classBlock .thumbnail .caption p:last-child {
+        padding-left: 25px;
+    }
+
+    .classBlock .thumbnail .caption p a {
+        font-size: 20px;
+    }
+
+    .searchBar>div>div {
+        padding: 32px 0 15px;
+    }
+
+    .searchBar>div>div i.fa-search {
+        font-size: 286px;
+        top: 18px;
+        right: 0;
+        left: auto;
+    }
+
+    .searchBar ul li {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .searchBar ul li:last-child button span:last-child {
+        display: inline;
+        margin-right: 0;
+    }
+
+    .searchBar select,
+    .searchBar button {
+        width: 100%;
+        padding: 9px 0px 8px 40px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .searchBar button {
+        padding: 8px 0 7px 0;
     }
 }
 
@@ -5150,4 +5365,7 @@ a.action-btn {
         margin-left: 120px !important;
     }
 
+    .parental_testimonial {
+        margin-bottom: -114px;
+    }
 }
