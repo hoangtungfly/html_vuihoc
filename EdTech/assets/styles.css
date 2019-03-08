@@ -128,7 +128,7 @@ ul {
 
 nav,
 nav a {
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     font-size: 22px;
     color: white !important;
 }
@@ -281,7 +281,7 @@ ul.nav-actions-logined>li {
 ul.nav-actions-logined li.hotline {
     position: relative;
     top: -26px;
-    margin-right: 87px;
+    margin-right: 20px;
 }
 
 ul.nav-actions-logined li.hotline i {}
@@ -306,7 +306,9 @@ ul.nav-actions-logined li.star {
     top: 12px;
 }
 
-ul.nav-actions-logined li.star div {}
+ul.nav-actions-logined li.star div {
+    height: 48px;
+}
 
 ul.nav-actions-logined li.star div img {
     position: relative;
@@ -567,7 +569,7 @@ a.navbar-brand {
 
 .submit-big,
 .submit-big-re {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 36px;
     color: white;
     height: 60px;
@@ -584,7 +586,7 @@ a.navbar-brand {
 
 /* HOMEPAGE */
 .heading_sec {
-    /* font-family: 'Baloo'; */
+    /* font-family: 'Quicksand'; */
     font-family: Quicksand;
 }
 
@@ -608,7 +610,7 @@ a.navbar-brand {
 }
 
 .classBlock {
-    margin-top: 90px;
+    margin-top: 120px;
 }
 
 .classBlock .thumbnail {
@@ -784,7 +786,7 @@ a.navbar-brand {
 .head_title h4 {
     font-size: 36px;
     color: black;
-    /* font-family: 'Baloo'; */
+    /* font-family: 'Quicksand'; */
     font-family: Quicksand;
     font-style: normal;
     font-weight: bold;
@@ -815,7 +817,7 @@ ul.nav.content-tab li {
 ul.nav.content-tab li a {
     padding: 17px 70px 16px;
     background-color: #e5f4f9;
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     font-size: 22px;
     display: inline-block;
     border-radius: 100px;
@@ -856,7 +858,7 @@ ul.nav.content-tab li.active a {
 
 .topics .thumbnail h3 {
     margin-top: 15px;
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     font-size: 22px;
 }
 
@@ -926,7 +928,7 @@ ul.nav.content-tab li.active a {
     position: absolute;
     right: 15px;
     top: -30px;
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
 }
 
 .notable_lesson .thumbnail a {
@@ -936,7 +938,7 @@ ul.nav.content-tab li.active a {
     display: inline-block;
     margin-top: -10px;
     margin-bottom: 6px;
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     position: absolute;
     right: 15px;
 }
@@ -988,7 +990,7 @@ ul.nav.content-tab li.active a {
 }
 
 .fun_math .thumbnail .caption a {
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     color: #ff5620;
     font-size: 22px;
     position: absolute;
@@ -1005,7 +1007,7 @@ ul.nav.content-tab li.active a {
 }
 
 .article .thumbnail {
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
 }
 
 .article .thumbnail .cover {
@@ -1074,7 +1076,7 @@ ul.nav.content-tab li.active a {
 
 .navigation h4 {
     color: #04689a;
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     font-size: 22px;
     margin-bottom: 10px;
 }
@@ -1094,7 +1096,10 @@ footer.homeFooter>div>div {
     border-top: 1px #c4c4c4 solid
 }
 
-footer.homeFooter .left {}
+footer.homeFooter .left {
+    padding-left: 0;
+    text-align: justify;
+}
 
 footer.homeFooter .left img {
     margin-top: 30px;
@@ -1102,7 +1107,7 @@ footer.homeFooter .left img {
 
 footer.homeFooter .left h4 {
     color: #04689a;
-    font-family: 'Baloo';
+    font-family: 'Quicksand';
     font-size: 48px;
     margin-bottom: 20px;
 }
@@ -1113,7 +1118,9 @@ footer.homeFooter .left p {
     margin-bottom: 15px;
 }
 
-footer.homeFooter .right {}
+footer.homeFooter .right {
+    padding-right: 0;
+}
 
 footer.homeFooter .right .head_title {
     margin-bottom: 26px;
@@ -1217,7 +1224,7 @@ footer.homeFooter .bct img {
 }
 
 .breadcrumb_sec .headingBackground h1 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
     color: #ffffff;
 }
@@ -1321,7 +1328,7 @@ footer.contentPage .copyright {
 }
 
 .formPanel .formTitle h4 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 36px;
     color: #1b3043;
     margin-bottom: 31px;
@@ -1393,7 +1400,7 @@ footer.contentPage .copyright {
     border-radius: 12px;
     box-shadow: inset 0 -6px 0 0 rgba(0, 0, 0, 0.25);
     background-color: #ff5620;
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
     color: white;
     border: none;
@@ -1473,7 +1480,7 @@ footer.contentPage .copyright {
 }
 
 footer .copyright p {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 18px;
     color: #04689a;
     position: absolute;
@@ -1505,7 +1512,7 @@ footer .copyright p {
 }
 
 h1.tab-title {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 36px;
     color: #ff5620;
     text-align: center;
@@ -1596,7 +1603,7 @@ ul.accomplishBar li span {
 }
 
 .subjects_sec .subject .heading h2 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 36px;
     border-bottom: 2px #000000 solid;
     margin: 0;
@@ -1639,7 +1646,7 @@ ul.accomplishBar li span {
 }
 
 .subjects_sec .subject ul.lesson-list li h2.number {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
     background-color: #d1d1d1;
     margin: 0;
@@ -1768,7 +1775,7 @@ ul.accomplishBar li span {
 }
 
 .subjects_sec .subject ul.lesson-list li .star span {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
 }
 
@@ -1832,7 +1839,7 @@ ul.accomplishBar li span {
 
 .contact_sec h1 {
     color: #ff5520;
-    font-family: Baloo;
+    font-family: Quicksand;
 }
 
 .contact_sec h1.heading {
@@ -2025,7 +2032,7 @@ form.feedback-form .form-actions {
     height: 48px;
     border-radius: 12px;
     box-shadow: inset 0 -6px 0 0 rgba(0, 0, 0, 0.25);
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
     border: none;
     color: white;
@@ -2082,7 +2089,7 @@ a.action-btn {
 }
 
 .profile_sec .left .row-1 .name {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 20px;
     color: #034d72;
     margin-top: 12px;
@@ -2113,7 +2120,7 @@ a.action-btn {
 }
 
 .profile_sec .left .row-2 ul.left-nav li a {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
     color: #04689a;
 }
@@ -2194,7 +2201,7 @@ a.action-btn {
 }
 
 .profile_sec .right h4.heading {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 20px;
     color: #6783c0;
     margin-bottom: 25px;
@@ -2273,7 +2280,7 @@ a.action-btn {
 .question-book {}
 
 .question-book .title {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
     color: white;
     text-align: center;
@@ -2351,7 +2358,7 @@ a.action-btn {
 }
 
 .note-cover .question-area .left-tray li:first-child {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
     color: white;
     background-color: #04689a;
@@ -2397,7 +2404,7 @@ a.action-btn {
 }
 
 .note-cover .question-area .right-tray h4 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
 }
 
@@ -2437,7 +2444,7 @@ a.action-btn {
 }
 
 .note-cover .question-area .right-tray .question-mark p.mark {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
     color: #ff5620;
     background-color: transparent;
@@ -2502,7 +2509,7 @@ a.action-btn {
 }
 
 .note-cover .question-area .question-heading li:nth-child(2) {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 36px;
     height: 52px;
     border-radius: 12px;
@@ -2593,7 +2600,7 @@ a.action-btn {
 }
 
 .note-cover .question-area .support h5 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 15px;
     color: #034d72;
     margin: 5px;
@@ -2612,7 +2619,7 @@ a.action-btn {
 .question-area .wrong-answer {
     margin: 93px -15px 0 -15px;
     text-align: center;
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 72px;
     color: white;
     height: 180px;
@@ -2628,7 +2635,7 @@ a.action-btn {
 }
 
 .question-area .next h4 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
     color: #034d72;
     margin: 4px;
@@ -2663,7 +2670,7 @@ a.action-btn {
 }
 
 .courses_sec .top-heading h1 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
     color: #034d72;
     margin-bottom: 65px;
@@ -2733,13 +2740,13 @@ a.action-btn {
 }
 
 .courses_sec .main-courses .left-pane .course .title h4 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 22px;
     margin-bottom: -5px;
 }
 
 .courses_sec .main-courses .left-pane .course .title h2 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
     margin-top: 0;
     margin-bottom: 20px;
@@ -2769,7 +2776,7 @@ a.action-btn {
 }
 
 .courses_sec .main-courses .left-pane .course .price .real-price {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 48px;
 }
 
@@ -2794,6 +2801,7 @@ a.action-btn {
 .courses_sec .main-courses .left-pane .course .action .action-btn span i {
     position: relative;
     left: 5px;
+    top: -1px;
 }
 
 .courses_sec .course .action .action-btn.try {
@@ -2825,7 +2833,7 @@ a.action-btn {
 .courses_sec .other-courses {}
 
 .courses_sec .other-courses .heading h2 {
-    font-family: Baloo;
+    font-family: Quicksand;
     font-size: 36px;
     color: #034d72;
     margin-bottom: 55px;
@@ -2846,6 +2854,9 @@ a.action-btn {
     padding-bottom: 12px;
     border: none;
     box-shadow: 0 2px 33px 0 rgba(176, 192, 237, 0.33);
+}
+
+.notable_courses .courses_sec .other-courses .course .thumbnail {
     height: 409px;
 }
 
@@ -2915,6 +2926,8 @@ a.action-btn {
 .courses_sec .other-courses .course .thumbnail .action .action-btn-sm span:first-child {
     font-size: 16.6px;
     width: 28px;
+    position: relative;
+    top: -2px;
 }
 
 .courses_sec .other-courses .course .thumbnail .action .action-btn-sm span:first-child i {
@@ -3086,6 +3099,8 @@ a.action-btn {
 
 .news_article_sec .content-sheet .left .related-articles #related-news .news-block {
     margin-top: 8px;
+    float: left;
+    min-height: 168px;
 }
 
 .news_article_sec .content-sheet .left .related-articles #related-news .splitter {
@@ -3203,7 +3218,7 @@ a.action-btn {
 }
 
 .statistics .box h1 {
-    /* font-family: Baloo; */
+    /* font-family: Quicksand; */
     font-size: 72px;
     margin-bottom: 0;
     font-family: Quicksand;
@@ -3251,7 +3266,7 @@ a.action-btn {
 }
 
 .join_vuihoc .four-step .step .header h2 {
-    /* font-family: Baloo; */
+    /* font-family: Quicksand; */
     font-size: 36px;
     color: white;
     text-align: center;
@@ -3365,7 +3380,7 @@ a.action-btn {
     width: 40px;
     border: 1px black solid;
     border-radius: 0;
-    padding: 12px 16px;
+    padding: 12px 15px;
     float: none;
     margin: 0 0 0 2px;
 }
@@ -3859,7 +3874,7 @@ a.action-btn {
     }
 
     .heading_sec .slogan {
-        padding-top: 25px;
+        padding-top: 15px;
     }
 
     .heading_sec .slogan>div {
@@ -3867,7 +3882,7 @@ a.action-btn {
     }
 
     .classBlock {
-        margin-top: 200px;
+        margin-top: 170px;
     }
 
     .col_5 {
@@ -4617,7 +4632,9 @@ a.action-btn {
     .navigation,
     footer .left,
     footer .right {
-        display: none;
+        margin-left: -15px;
+        margin-right: -15px;
+        padding: 0;
     }
 
     footer.homeFooter {
@@ -4626,6 +4643,13 @@ a.action-btn {
 
     footer.homeFooter>div>div {
         border: none;
+    }
+    .fb_iframe_widget {
+        margin-left: 0;
+    }
+    #layout_footer > .row{
+        margin-left: -15px;
+        margin-right: -15px;
     }
 }
 
@@ -4697,7 +4721,10 @@ a.action-btn {
 
     .heading_sec h1 {
         font-size: 80px;
-        margin-top: -22px;
+        margin-top: -12px;
+    }
+    
+    .heading_sec .className h1 {
         display: none;
     }
 
@@ -4774,8 +4801,8 @@ a.action-btn {
         background-size: 200px 160px;
     } */
     .heading_sec>div>div {
-        background-position: center 155px !important;
-        background-size: 200px 160px !important;
+        background-position: center 115px  !important;
+        background-size: 250px 180px !important;
     }
 
     .className h4 {
@@ -5165,6 +5192,9 @@ a.action-btn {
         line-height: 21px;
     }
 
+    .fix-margin-right--30{
+        margin-right: -30px;
+    }
 }
 
 @media (max-width: 414px) {
