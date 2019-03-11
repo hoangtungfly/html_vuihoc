@@ -164,7 +164,7 @@
                             <h4 class="title">Thông tin khóa học <i class="fas fa-angle-down"></i></h4>
                             <div class="info">
                                 <h4>Mô tả khóa học</h4>
-                                <p>Đồng hành cùng các em học sinh trong khóa học Luyện thi THPT quốc gia PEN-I môn Hóa học là thầy Vũ Khắc Ngọc - Thầy giáo quốc dân trong lòng hàng ngàn học sinh trên cả nước. Khóa học hướng tới mục tiêu "hạ gục" mọi dạng bài có thể xuất hiện trong đề thi THPT quốc gia 2019 và được thiết kế dành cho nhóm học sinh khá - giỏi có khả năng tiếp thu kiến thức tốt. Vì vậy mỗi đề thi đều được cập nhật các câu hỏi hay ở mức độ khó và cực khó, những câu hỏi thực tiễn liên quan đến kiến thức bài học.</p>
+                                <p>Đồng hành cùng các em học sinh trong khóa học Luyện thi THPT quốc gia PEN-I môn Hóa học là thầy Vũ Khắc Ngọc - <a href="#">Thầy giáo quốc dân</a> trong lòng hàng ngàn học sinh trên cả nước. Khóa học hướng tới mục tiêu "hạ gục" mọi dạng bài có thể xuất hiện trong đề thi THPT quốc gia 2019 và được thiết kế dành cho nhóm học sinh khá - giỏi có khả năng tiếp thu kiến thức tốt. Vì vậy mỗi đề thi đều được cập nhật các câu hỏi hay ở mức độ khó và cực khó, những câu hỏi thực tiễn liên quan đến kiến thức bài học.</p>
                                 <a href="#">Xem thêm <i class="fas fa-angle-right"></i></a>
                             </div>
                             <div class="info">
@@ -183,8 +183,8 @@
                             </form>
                             <div class="syllabus">
                                 <div class="syllabus-box">
-                                    <h4 class="heading">Chương 1 • Phân số - Các phép tính với phân số. Giới thiệu hình thoi <i class="fas fa-chevron-down"></i></h4>
-                                    <ul class="lesson-list">                                        
+                                    <h4 class="heading" data-toggle="collapse" data-target="#chapter1">Chương 1 • Phân số - Các phép tính với phân số. Giới thiệu hình thoi <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="lesson-list collapse in" id="chapter1">
                                         <li class="completed">
                                             <div class="connect-line"></div>
                                             <div class="progress-icon completed"><i class="fas fa-check"></i></div>
@@ -239,7 +239,7 @@
                                             <button class="youtube"><i class="fas fa-play-circle"></i> <span>Xem bài giảng</span></button>
                                             <button class="edit"><i class="fas fa-edit"></i> <span>Làm bài tập</span></button>
                                         </li>
-                                        <li class="incompleted last-item alter">
+                                        <li class="incompleted alter">
                                             <div class="connect-line"></div>
                                             <div class="progress-icon thisWeekAssignment"><i class="fas fa-circle"></i></div>
                                             <div class="title">
@@ -260,8 +260,8 @@
                                     </ul>
                                 </div>
                                 <div class="syllabus-box">
-                                    <h4 class="heading">Chương 2 • Phân số - Các phép tính với phân số. Giới thiệu hình thoi <i class="fas fa-chevron-down"></i></h4>
-                                    <ul class="lesson-list">                                        
+                                    <h4 class="heading" data-toggle="collapse" data-target="#chapter2">Chương 2 • Phân số - Các phép tính với phân số. Giới thiệu hình thoi <i class="fas fa-chevron-down"></i></h4>
+                                    <ul class="lesson-list collapse in" id="chapter2">                                       
                                         <li class="completed">
                                             <div class="connect-line"></div>
                                             <div class="progress-icon completed"><i class="fas fa-check"></i></div>
@@ -316,7 +316,7 @@
                                             <button class="youtube"><i class="fas fa-play-circle"></i> <span>Xem bài giảng</span></button>
                                             <button class="edit"><i class="fas fa-edit"></i> <span>Làm bài tập</span></button>
                                         </li>
-                                        <li class="incompleted last-item alter">
+                                        <li class="incompleted alter">
                                             <div class="connect-line"></div>
                                             <div class="progress-icon thisWeekAssignment"><i class="fas fa-circle"></i></div>
                                             <div class="title">
@@ -373,7 +373,12 @@
                                 <p>Hoặc tuần cụ thể</p>
                                 <div class="selectBox">
                                     <select name="" id="">
-                                        <option value="">Tuần 01 (04 - 10/09)</option>
+                                        <option value="">BÀI HỌC TUẦN 01 (04/10 - 10/09)</option>
+                                        <option value="">BÀI HỌC TUẦN 01 (04/10 - 10/09)</option>
+                                        <option value="">BÀI HỌC TUẦN 01 (04/10 - 10/09)</option>
+                                        <option value="">BÀI HỌC TUẦN 01 (04/10 - 10/09)</option>
+                                        <option value="">BÀI HỌC TUẦN 01 (04/10 - 10/09)</option>
+                                        <option value="">BÀI HỌC TUẦN 01 (04/10 - 10/09)</option>
                                     </select>
                                     <i class="fas fa-angle-down pull-right"></i>
                                 </div>
@@ -435,6 +440,8 @@ function getMSystem() {
 
     return "unknown";
 }
+
+$(".panel-body").collapse({ 'toggle': false });
 
 $('.float-btn button').on('click', function(){
     var floatBtn = $('.float-btn');

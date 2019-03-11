@@ -3764,6 +3764,7 @@ a.action-btn {
     font-size: 36px;
     font-weight: bold;
     width: 65%;
+    line-height: 45px;
 }
 
 .course_detail_sec>.container {
@@ -3813,7 +3814,7 @@ a.action-btn {
     background-color: white;
     border-radius: 12px;
     border: 1px solid #D1D1D1;
-    padding: 22px 30px 22px;
+    padding: 22px 35px 22px;
     color: #1B3043;
     margin-bottom: 20px;
 }
@@ -3821,13 +3822,14 @@ a.action-btn {
 .course_detail_sec .left .course-info .info h4 {
     font-size: 22px;
     font-weight: bold;
+    margin-bottom: 2px;
 }
 
 .course_detail_sec .left .course-info .info p {
     line-height: 22px;
 }
 
-.course_detail_sec .left .course-info .info a {
+.course_detail_sec .left .course-info .info > a {
     text-align: right;
     display: block;
     color: #FF5620;
@@ -3890,7 +3892,7 @@ a.action-btn {
 .course_detail_sec .left .course-syllabus .search-box .form-field-container input {
     font-weight: bold;
     font-size: 18px;
-    color: #D1D1D1;
+    color: #1B3043;
     padding-left: 44px;
 }
 
@@ -3920,7 +3922,13 @@ a.action-btn {
     border: 1px solid #D1D1D1;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box {}
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box {
+    border-bottom: 1px white solid;
+}
+
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box:last-child {
+    border-bottom: none;
+}
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box h4.heading {
     background: #2CA9E2;
@@ -3930,6 +3938,8 @@ a.action-btn {
     margin-bottom: 0;
     margin-top: 0px;
     cursor: pointer;
+    font-size: 22px;
+    line-height: 27px;
 }
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box h4.heading i {
@@ -3963,7 +3973,7 @@ a.action-btn {
     top: 24px;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li.last-item .connect-line {
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li:nth-last-child(2) .connect-line {
     top: -23px;
 }
 
@@ -4021,7 +4031,9 @@ a.action-btn {
     color: #78CA3C;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li .progress-icon i.fa-circle {}
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li .progress-icon i.fa-circle {
+    top: 2px;
+}
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li .progress-icon i.fa-dot-circle {
     color: #FF5620;
@@ -4295,7 +4307,7 @@ a.action-btn {
 .quick-jump-box a.action-btn span {
     width: 100%;
     position: relative;
-    top: -2px;
+    top: -3px;
     left: 15px;
     font-size: 20px;
     font-weight: 500;
@@ -4324,7 +4336,8 @@ a.action-btn {
     line-height: normal;
     font-size: 20px;
     color: #1B3043;
-    padding: 10px 20px 11px;
+    padding: 10px 45px 11px 20px;
+    width: 100%;
 }
 
 .quick-jump-box .selectBox i {
@@ -5943,10 +5956,11 @@ a.action-btn {
     .course_detail_sec.breadcrumb_sec .headingBackground h1 {
         font-size: 22px;
         margin-top: 25px;
+        line-height: 27px;
     }
 
     .breadcrumb_sec.course_detail_sec .headingBackground {
-        height: 100px;
+        height: 106px;
     }
 }
 
