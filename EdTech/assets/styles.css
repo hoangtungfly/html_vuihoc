@@ -3970,11 +3970,11 @@ a.action-btn {
 }
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li:first-child .connect-line {
-    top: 24px;
+    top: 50%;
 }
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li:nth-last-child(2) .connect-line {
-    top: -23px;
+    top: -50%;
 }
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li {
