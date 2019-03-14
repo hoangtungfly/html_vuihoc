@@ -3973,15 +3973,20 @@ a.action-btn {
     top: 50%;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li:nth-last-child(2) .connect-line {
-    top: -50%;
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li:last-child .connect-line {
+     top: -50%; 
 }
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li {
-    padding: 15px 0 5px;
+    /* padding: 15px 0 5px; */
     position: relative;
     overflow: hidden;
     cursor: pointer;
+}
+
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li .item {
+    position: relative;
+    padding: 15px 0 5px;
 }
 
 .course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list .action-links {
@@ -3991,7 +3996,7 @@ a.action-btn {
     display: none;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li.action-links button {
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list .action-links button {
     color: white;
     background: #FF5620;
     box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.25);
@@ -4000,13 +4005,13 @@ a.action-btn {
     padding: 12px 14px 15px;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li.action-links i {
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list .action-links i {
     font-size: 21px;
     position: relative;
     top: 2px;
 }
 
-.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list li.action-links span {
+.course_detail_sec .left .course-syllabus .syllabus .syllabus-box ul.lesson-list .action-links span {
     font-weight: bold;
     font-size: 15px;
     margin-left: 2px;
