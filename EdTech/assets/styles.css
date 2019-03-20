@@ -4987,12 +4987,13 @@ a.action-btn {
     #navbar {
         overflow: hidden;
         border: none;
-        height: 100vh;
+        height: calc(100vh - 144px);
         background-color: #04689a;
         z-index: 100;
         position: relative;
         top: -7px;
         overflow-y: scroll;
+        max-height: none;
     }
 
     #navbar a {
